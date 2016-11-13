@@ -19,7 +19,7 @@ The goal of this assignment is for you to gain familiarity with SQL.
 ### What to do
 
 In this assignment you are asked to:  
-* update a skeleton Python script (`moviepro.py`) in order to read input from CSV files, and   
+* update a skeleton Python script (`moviepro.py`) in order to read input from CSV files and insert the data into the `cs1656.sqlite` database, and   
 * provide SQL queries that answer 12 questions.
 
 The provided skeleton Python script includes database initialization commands and also includes commands to run the SQL queries and store their output in separate output files, which you should not modify. What you should update are the parts of the script that are responsible for reading in the input data and for specifying the 12 SQL queries.
@@ -42,14 +42,19 @@ Your program should read input from the following CSV files:
 * `all_directors.csv`, containing data for the Directors table,  
 * `all_movie_dir.csv`, containing data for the Cast table, and  
 * `all_movies.csv`, containing data for the Movie_Director table.
+All the data should be inserted into the appropriate tables into the `cs1656.sqlite` database. Sample insert statements have been provided in the `moviepro.py` script, but you are not restricted to doing the insertions in exactly the same way.
+
 Samples of all these files are provided as part of this repository.
 
 
 ### Queries
 
 You are asked to provide SQL queries that provide answers for the following questions: 
-* *Q1* lala  
-*   
+* *[Q1]* 
+lala  
+* *(Q2)*  
+lala2  
+
 
 
 
@@ -83,7 +88,7 @@ If you would like to use any other libraries, you must ask permission by Sunday,
 ---
 
 ### How to submit your assignment
-For this assignment, you must use the repository that was created for you after visiting the classroom link. You need to update the repository to include file `apriori.py` as described above, and other files that are needed for running your program. You need to make sure to commit your code to the repository provided. We will clone all repositories shortly after midnight:  
+For this assignment, you must use the repository that was created for you after visiting the classroom link. You need to update the  file `moviepro.py` as described above, and add other files that are needed for running your program. You need to make sure to commit your code to the repository provided. We will clone all repositories shortly after midnight:  
 * the day of the deadline **Friday, December 2nd, 2016 (i.e., at 12:15am, Saturday, December 3rd, 2016)**  
 * 24 hours later (for submissions that are one day late / -5 points), and  
 * 48 hours after the first deadline (for submissions that are two days late / -15 points). 
