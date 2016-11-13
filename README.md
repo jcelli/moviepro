@@ -49,16 +49,20 @@ Samples of all these files are provided as part of this repository.
 
 ### Queries
 
-You are asked to provide SQL queries that provide answers for the following questions: 
-* **[Q1]**  
-List all the actors (first and last name) who acted in at least one film in the 1st half of the 20th century (1901-1950) and at least one film in the 2nd half of the 20th century (1951 - 2000).  
-* **[Q2]**  
-List all the movies that were released in the same year as the movie `"Rogue One"` but had a better rank (Note: the higher the value in the *rank* attribute the better the rank of the movie).  
+You are asked to provide SQL queries that provide answers for the following questions. Note that **actors** refers to both male and female actors, unless explicitely specified otherwise.
 
-
-
-
-
+* **[Q1]** List all the actors (first and last name) who acted in at least one film in the 1st half of the 20th century (1901-1950) and at least one film in the 2nd half of the 20th century (1951 - 2000).  
+* **[Q2]** List all the movies (title, year) that were released in the same year as the movie `"Rogue One"`, but had a better rank (Note: the higher the value in the *rank* attribute, the better the rank of the movie).  
+* **[Q3]** List all the actors (first and last name) who played in the movie `"Star Wars VII: The Force Awakens"`.   
+* **[Q4]** Find the actor(s) (first and last name) who **only** acted in films released before 1985.   
+* **[Q5]** List all the directors in descending order of the number of films they directed (first name, last name, number of films directed). 
+* **[Q6]** Find the movie(s) with the largest cast (title, number of cast members). Note: show all movies in case of a tie.  
+* **[Q7]** Find the movie(s) whose cast has more actresses than actors (i.e., gender=female vs gender=male).  Show the title, the number of actresses, and the number of actors in the results.  
+* **[Q8]** List all the actors who were casted in movies  
+* **[Q9]** List all  
+* **[Q10]** List all  
+* **[Q11]** List all  
+* **[Q12]** List all  
 
 ---
 
