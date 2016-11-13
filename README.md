@@ -50,10 +50,12 @@ Samples of all these files are provided as part of this repository.
 ### Queries
 
 You are asked to provide SQL queries that provide answers for the following questions: 
-* *[Q1]* 
-lala  
-* *(Q2)*  
-lala2  
+* **[Q1]**  
+List all the actors (first and last name) who acted in at least one film in the 1st half of the 20th century (1901-1950) and at least one film in the 2nd half of the 20th century (1951 - 2000).  
+* **[Q2]**  
+List all the movies that were released in the same year as the movie `"Rogue One"` but had a better rank (Note: the higher the value in the *rank* attribute the better the rank of the movie).  
+
+
 
 
 
