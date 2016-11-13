@@ -22,32 +22,34 @@ In this assignment you are asked to:
 * update a skeleton Python script (`moviepro.py`) in order to read input from CSV files, and   
 * provide SQL queries that answer 12 questions.
 
-The provided skeleton Python script includes database initialization commands and also includes output commands, which you should not modify. What you should update are the parts of the script that are responsible for reading in the input data and for running the 12 SQL queries.
+The provided skeleton Python script includes database initialization commands and also includes commands to run the SQL queries and store their output in separate output files, which you should not modify. What you should update are the parts of the script that are responsible for reading in the input data and for specifying the 12 SQL queries.
 
 ### Database Schema
 
 The schema of the database is embedded in the `moviepro.py` Python script and should not be modified. It is as follows:
-* ACTOR (id, fname, lname, gender)  
-* MOVIE (id, name, year, rank)  
-* DIRECTOR (id, fname, lname)  
-* CAST (pid, mid, role)  
-* MOVIE_DIRECTOR (did, mid)  
+* Actors (aid, fname, lname, gender)  
+* Movies (mid, title, year, rank)  
+* Directors (did, fname, lname)  
+* Cast (aid, mid, role)  
+* Movie_Director (did, mid)  
 
 
 ### Reading input from CSV files
 
 Your program should read input from the following CSV files:
-
-
+* `all_actors.csv`, containing data for the Actors table,  
+* `all_cast.csv`, containing data for the Movies table,  
+* `all_directors.csv`, containing data for the Directors table,  
+* `all_movie_dir.csv`, containing data for the Cast table, and  
+* `all_movies.csv`, containing data for the Movie_Director table.
 Samples of all these files are provided as part of this repository.
 
 
 ### Queries
 
 You are asked to provide SQL queries that provide answers for the following questions: 
-
-
-
+* *Q1* lala  
+*   
 
 
 
@@ -56,7 +58,7 @@ You are asked to provide SQL queries that provide answers for the following ques
 ### Important notes about grading
 It is absolutely imperative that your python program:  
 * runs without any syntax or other errors (using Python 2.7) -- we will run it using the following command:  
-`python `  
+`python moviepro.py`  
 * strictly adheres to the format specifications for input and output, as explained above.     
 
 Failure in any of the above will result in **severe** point loss. 
@@ -69,15 +71,14 @@ argparse
 collections
 csv
 glob
-itertools
-math 
 os
 pandas
 re
 string
+sqlite3
 sys
 ```
-If you would like to use any other libraries, you must ask permission by Sunday, October 16, 2016, using [piazza](http://piazza.cs1656.org).
+If you would like to use any other libraries, you must ask permission by Sunday, November 18, 2016, using [piazza](http://piazza.cs1656.org).
 
 ---
 
