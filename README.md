@@ -19,10 +19,10 @@ The goal of this assignment is for you to gain familiarity with SQL.
 ### What to do
 
 In this assignment you are asked to:  
-* update a Python script in order to read input from CSV files  
-* provide 12 SQL queries.
+* update a skeleton Python script (`moviepro.py`) in order to read input from CSV files, and   
+* provide SQL queries that answer 12 questions.
 
-In order to do the above, a skeleton Python script is provided (`moviepro.py`). The script includes database initialization commands and also includes output commands, which you should not modify. What you should update are the parts of the script that are responsible for reading in the input data and for running the 12 SQL queries.
+The provided skeleton Python script includes database initialization commands and also includes output commands, which you should not modify. What you should update are the parts of the script that are responsible for reading in the input data and for running the 12 SQL queries.
 
 ### Database Schema
 
