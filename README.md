@@ -100,7 +100,7 @@ string
 sqlite3
 sys
 ```
-If you would like to use any other libraries, you must ask permission by Sunday, November 18, 2016, using [piazza](http://piazza.cs1656.org).
+If you would like to use any other libraries, you must ask permission by Friday, November 18, 2016, using [piazza](http://piazza.cs1656.org).
 
 ---
 
